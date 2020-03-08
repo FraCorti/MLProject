@@ -4,8 +4,10 @@
 
 
 # Neuradillo
-Neuradillo is a small C++ library exploiting [Armadillo](http://arma.sourceforge.net/) numerical library to create and train feedforward neural network. We developed this library as a project for the Machine Learning [course](https://esami.unipi.it/esami2/programma.php?c=42276&aa=2019&docente=MICHELI&insegnamento=&sd=0). More information about the project and the algorithms we implemented can be found in the [report](https://github.com/GiovanniSorice/MLProject/blob/master/docs/report/relazione.pdf). 
-
+For the Machine Learning [course](https://esami.unipi.it/esami2/programma.php?c=42276&aa=2019&docente=MICHELI&insegnamento=&sd=0) we developed Neuradillo, a library to build and train feedforward neural networks in C++ exploiting [Armadillo](http://arma.sourceforge.net/) numerical library.
+The main implemented techniques are gradient descent with backpropagation, k-fold cross-validation and grid-search (parallel and sequential). Multiple activation functions are available (sigmoid, tanh, relu and linear).
+We tested our library on [Monks datasets](https://archive.ics.uci.edu/ml/datasets/MONK%27s+Problems) and on a specific dataset given by the professor. All the tests were made with different models using one to five hidden layers.
+More information about the project and the algorithms we implemented can be found in the [report](https://github.com/GiovanniSorice/MLProject/blob/master/docs/report/relazione.pdf).
 ## Getting started
 
 ### Prerequisites 
